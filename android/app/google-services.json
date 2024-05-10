@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681354146630",
+    "project_id": "bloc-ab242",
+    "storage_bucket": "bloc-ab242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681354146630:android:024e6bd3b97535ec486b47",
+        "android_client_info": {
+          "package_name": "com.example.flutterbasicunderstanding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5-Wmbq_Uy-w9asBMZfT7DL9TzYRcpgYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
