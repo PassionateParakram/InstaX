@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:user_repository/src/entities/entities.dart';
 
 class MyUser extends Equatable {
   final String id;
@@ -32,6 +33,18 @@ class MyUser extends Equatable {
   bool get isEmpty => this ==MyUser.empty;
   bool get isNotEmpty => this != MyUser.empty;
 
+  MyUserEntities toEntity(){
+    return MyUserEntities(
+      id:id,
+      email:email,
+      name:name,
+      picture:picture,
+    );
+  }
+
+  static MyUser fromEntity(MyUserEntities entity){
+    return MyUser(id: entity.id, email: entity.email, name: entity.name, picture: entity.picture)
+  }
   @override
   // TODO: implement props
   List<Object?> get props => [id, email, name, picture ];
