@@ -39,5 +39,5 @@ class MyUserEntities extends Equatable {
     name:$name
     picture:$picture
   }''';
-}
+}}
 //this class will be used for backend calls

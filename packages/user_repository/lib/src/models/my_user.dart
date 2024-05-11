@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter/cupertino.dart';
+
 import 'package:user_repository/src/entities/entities.dart';
 
 class MyUser extends Equatable {
@@ -43,7 +43,7 @@ class MyUser extends Equatable {
   }
 
   static MyUser fromEntity(MyUserEntities entity){
-    return MyUser(id: entity.id, email: entity.email, name: entity.name, picture: entity.picture)
+    return MyUser(id: entity.id, email: entity.email, name: entity.name, picture: entity.picture);
   }
   @override
   // TODO: implement props
